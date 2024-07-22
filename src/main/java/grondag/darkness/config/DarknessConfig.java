@@ -10,12 +10,12 @@ import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 public class DarknessConfig implements ConfigData {
 
     public boolean darkOverworld = true;
-    public boolean darkDefault = true;
-    public boolean darkNether = true;
+    public boolean darkDefault = false;
+    public boolean darkNether = false;
     public double darkNetherFog = 0.5;
-    public boolean darkEnd = true;
+    public boolean darkEnd = false;
     public double darkEndFog = 0.0;
-    public boolean darkSkyless = true;
+    public boolean darkSkyless = false;
     public boolean blockLightOnly = false;
     public boolean ignoreMoonPhase = false;
 
